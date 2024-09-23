@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .con{
+            padding: 20px;
+        }
+        .labe{
+            width: 100px;
+            font-size: large;
+        }
+        .box{
+            width: 260px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="content">
+        <form class="con">
+            <div>
+                <h2>Login</h2>
+                <label for="user" class="labe">Username: </label>
+                <input type="text" id="user" name="user" required maxlength="8" minlength="8" placeholder="john1023"
+                    class="box">
+            </div>
+            <br />
+            <div>
+                <label for="pass" class="labe">Password: </label>
+                <input type="password" class="box" id="pass" name="pass" required placeholder="Enter password">
+            </div>
+            <br>
+            <div>
+                <a href="#" class="anchor">Forgot password?</a>
+            </div>
+            <br>
+            <div class="button">
+                <button type="submit">Submit</button>
+                <button type="reset" class="reset">Reset</button>
+            </div>
+            <div>
+                <p>Don't have any account? <a href="index.html">Signup</a></p>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

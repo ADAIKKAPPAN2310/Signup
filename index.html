@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Signup</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="content">
+        <form action="submit.php" method="post" class="con">
+            <h2>Signup</h2>
+            <div>
+                <label class="labe" for="first">First Name: </label>
+                <input type="text" name="first" id="first" required placeholder="John" class="box">
+            </div>
+            <br />
+            <div>
+                <label class="labe" for="second">Second Name: </label>
+                <input type="text" name="last" id="second" required placeholder="Doe" class="box">
+            </div>
+            <br>
+            <div>
+                <label for="user" class="labe">Username: </label>
+                <input type="text" name="user" id="user" required placeholder="john1023" class="box" maxlength="8"
+                    minlength="8">
+            </div>
+            <br />
+            <div>
+                <label class="labe" for="mail">Email ID: </label>
+                <input type="email" name="mail" id="mail" required placeholder="exaple@domain.com" class="box">
+            </div>
+            <br />
+            <div>
+                <label class="labe" for="pass">Password: </label>
+                <input type="password" id="pass" minlength="6" name="pass" required placeholder="Enter password"
+                    class="box">
+            </div>
+            <br />
+            <div>
+                <label class="labe" for="cpass">Confirm Password: </label>
+                <input type="password" minlength="6" id="cpass" name="cpass" required placeholder="Re-Enter password"
+                    class="box">
+            </div>
+            <br />
+            <div>
+                <label for="term">
+                    <input type="checkbox" required id="term"> I agree to <a href="">Terms & Conditions</a>
+                </label>
+            </div>
+            <br />
+            <div class="button">
+                <button type="submit" class="submit">Submit</button>
+                <br />
+                <button type="reset" class="reset">Reset</button>
+            </div>
+            <p class="already">Already have account? <a href="#">Log-in</a></p>
+        </form>
+    </div>
+</body>
+
+</html>
