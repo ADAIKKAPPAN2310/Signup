@@ -46,8 +46,8 @@ button {
     padding: 10px 20px;
     margin-top: 7px;
     width: 90%;
-    border-radius: 12px;
-    font-size: 1.009rem;
+    border-radius: 13px;
+    font-size: 1rem;
     cursor: pointer;
     border: none;
     color: #212121;
@@ -67,7 +67,7 @@ button:hover {
 }
 .already {
     text-align: center;
-    font-size: 1.15rem;
+    font-size: 1rem;
 }
 
 .labe {
