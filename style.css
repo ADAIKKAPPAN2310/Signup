@@ -46,7 +46,7 @@ button {
     padding: 10px 20px;
     margin-top: 7px;
     width: 90%;
-    border-radius: 13px;
+    border-radius: 15px;
     font-size: 1rem;
     cursor: pointer;
     border: none;
@@ -61,7 +61,7 @@ button:hover {
     box-shadow: 1px 1px 15px #39FF14;
 }
 .reset:hover{
-    background-color: rgb(255, 0, 0);
+    background-color: rgb(789, 0, 0);
     box-shadow: 1px 1px 15px red;
     color: white;
 }
