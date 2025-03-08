@@ -22,7 +22,7 @@ body {
     width: 400px;
     align-items: end;
     padding: 0px 20px;
-    border-radius: 15px;
+    border-radius: 10px;
 }
 
 h2 {
@@ -44,7 +44,7 @@ a {
 button {
     background-color: #39FF14;
     padding: 10px 20px;
-    margin-top: 7px;
+    margin-top: 15px;
     width: 90%;
     border-radius: 15px;
     font-size: 1rem;
