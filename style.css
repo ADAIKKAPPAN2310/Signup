@@ -7,7 +7,7 @@ body {
 }
 
 .content {
-    padding-top: 70px ;
+    padding-top: 80px ;
     height: 625px;
     width: 100%;
     display: flex;
@@ -44,9 +44,8 @@ a {
 button {
     background-color: #39FF14;
     padding: 10px 20px;
-    margin-top: 7px;
+    margin-top: 15px;
     width: 90%;
-    border-radius: 12px;
     font-size: 1rem;
     cursor: pointer;
     border: none;
@@ -61,13 +60,15 @@ button:hover {
     box-shadow: 1px 1px 15px #39FF14;
 }
 .reset:hover{
-    background-color: rgb(255, 0, 0);
+    background-color: rgb(789, 0, 0);
     box-shadow: 1px 1px 15px red;
     color: white;
 }
 .already {
     text-align: center;
     font-size: 1.20rem;
+    font-size: 1rem;
+
 }
 
 .labe {
